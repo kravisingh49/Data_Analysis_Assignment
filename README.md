@@ -29,7 +29,7 @@ This folder contains the solution files:
 - `excel_assessment.xlsm`: An Excel file containing the solutions with built-in macros for automation.
 
 ### **2. 📝 templates Folder**
-Placeholder for any templates used in the project (none provided yet, but you can place yours here).
+This folder contains the provided template scripts for the assignment. The solutions should adhere strictly to the function signatures and structure outlined in these templates to ensure proper testing and evaluation.
 
 ### **3. 📊 datasets Folder**
 Contains datasets for analysis and Python operations:
