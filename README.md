@@ -44,7 +44,7 @@ Contains datasets for analysis and Python operations:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/kravisingh49/Data_Analysis_Assignment.git
-   cd yourrepo/submissions
+   cd Data_Analysis_Assignment/submissions
    ```
 
 2. **Install Dependencies:**
