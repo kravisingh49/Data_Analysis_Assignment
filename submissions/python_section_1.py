@@ -4,17 +4,15 @@ import re
 import numpy as np
 import polyline
 
-def reverse_by_n_elements(lst: List[int], n: int) -> List[int]:
-    """ Reverse every group of n elements in the list. """
-
-    result = []  # Initialize the result list to store the final reversed list
-    i = 0  # Start index for the first chunk
-    while i < len(lst):
-        chunk = []  # Temporary list to hold the current chunk before reversing
-        for j in range(i, min(i + n, len(lst))):  # Loop over the current chunk
-            chunk.insert(0, lst[j])  # Insert each element at the beginning to reverse the order
-        result.extend(chunk)  # Add the reversed chunk to the result list
-        i += n  # Move to the start of the next chunk
+def reverse_by_n_elements(lst, n):
+    result = [] 
+    # Loop through the list in steps of n 
+    for i in range(0, len(lst), n): 
+    # Reverse the chunk manually and append it to result 
+    chunk = lst[i:i + n] 
+    # Get the next n elements 
+    result.extend(chunk[::-1]) 
+    # Reverse and add to the result 
     return result
 
 
